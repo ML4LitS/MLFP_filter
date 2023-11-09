@@ -82,6 +82,11 @@ Before running any scripts, obtain the necessary credentials:
 - `SCHEMA_DB_CDB`
 - `DOMAIN_API`
 
+Before running any scripts, replace your email credentials:
+
+- `LSF_EMAIL` in bsub_scilite_pipeline.sh, bsub_single_fulltext_job, bsub_single_abstract_job
+- `MAIL_RECIPIENTS` in common_functions.sh
+
 The machine-learning model used here is available at https://github.com/ML4LitS/annotation_models. Place the model in `quantised` folder.
 
 Ensure you replace placeholders with actual paths and credentials where necessary.
