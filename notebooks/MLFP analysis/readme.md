@@ -1,4 +1,4 @@
-The analysis was conducted on a sample of 300 sentences each for three different entity types - Disease, Gene_protein, and Organism. The aim was to assess the performance of the MLFP (Machine Learning Filtering Process) filter in our text mining pipeline. This filter's effectiveness was measured based on the attempted sentences' classification into three categories: Red (incorrect), Amber (neutral), and Green (correct).
+The analysis was conducted on a sample of 300 sentences each for three different entity types - Disease, Gene_protein, and Organism. The aim was to assess the performance of the MLFP (Machine Learning Filtering Process) filter in our text mining pipeline. This filter's effectiveness was measured based on the attempted sentences' by expert classification into three categories: Red (incorrect), Amber (neutral), and Green (correct).
 
 **Results:**
 
@@ -29,7 +29,7 @@ The analysis was conducted on a sample of 300 sentences each for three different
 **Analysis:**
 - The MLFP filter showed high accuracy in correctly identifying the 'Green' or correct sentences across all three entities. The correct classification percentage was notably high for 'Disease' (93.6%) and 'Gene_protein' (91.43%).
 - The 'Red' or incorrect classifications remained low across all entities, suggesting a high level of precision in the filter's ability to identify errors or irrelevant information.
-- A significant proportion of sentences remained unattempted, especially in the case of 'Gene_protein' and 'Organism'. This could indicate either a conservative approach by the expert moderator or a limitation in the current setup of the MLFP filter to process these entities.
+- A significant proportion of sentences remained unattempted, especially in the case of 'Gene_protein' and 'Organism'. This could indicate either a conservative approach by the expert or a limitation in the current setup of the MLFP filter to process these entities.
 
-**Recommendation:**
+**Recommendation by expert:**
 Given the high accuracy in correctly identifying relevant and accurate information, and the low rate of incorrect classifications, it is recommended that **the MLFP filter is functioning effectively and is ready for deployment in production**. This will enhance the efficiency and reliability of our text mining pipeline, especially in accurately categorizing information related to diseases, gene proteins, and organisms. However, steps should be taken to understand and possibly reduce the high number of unattempted sentences, to further improve the system's overall throughput and efficiency.
