@@ -31,12 +31,12 @@ The analysis was conducted on a sample of 300 sentences each for three different
 - The 'Red' or incorrect classifications remained low across all entities, suggesting a high level of precision in the filter's ability to identify errors or irrelevant information.
 - A significant proportion of sentences remained unattempted, especially in the case of 'Gene_protein' and 'Organism'. This could indicate either a conservative approach by the expert or a limitation in the current setup of the MLFP filter to process these entities.
 
-**Analysis on 66127 PMC articles **
+**Analysis on 66127 PMC articles:**
 - disease: 19.54% FP removed
 - gene_protein: 24.86% FP removed
 - organism: 15.52% FP removed
 
-**Examples of false positives removed**
+**Examples of false positives removed:**
 
 - organism: https://europepmc.org/article/MED/30349628 (Apple)
 - disease: https://europepmc.org/article/MED/36972338 (aids;sequelae)
