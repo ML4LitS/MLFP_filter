@@ -1,6 +1,3 @@
-### Analysis Report on MLFP Filter Performance in Text Mining Pipeline
-
-**Overview:**
 The analysis was conducted on a sample of 300 sentences each for three different entity types - Disease, Gene_protein, and Organism. The aim was to assess the performance of the MLFP (Machine Learning Filtering Process) filter in our text mining pipeline. This filter's effectiveness was measured based on the attempted sentences' classification into three categories: Red (incorrect), Amber (neutral), and Green (correct).
 
 **Results:**
